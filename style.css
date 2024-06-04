@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  margin-top: 17vh;
 }
 
 
@@ -34,20 +33,12 @@ a,
 nav,
 .nav-links {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 7vh;
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: white; /* Ensure the header has a background color */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Add some shadow for better visibility */
-
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
 
 .nav-links {
@@ -189,14 +180,11 @@ section {
   margin: auto 0;
 }
 
-.section__pic-container img {
-  border-radius: 50%; /* Makes the image round */
-  width: 400px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures the image covers the entire area */
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
-
-
 .section__text {
   align-self: center;
   text-align: center;
@@ -519,4 +507,5 @@ project-description {
     background-color: rgba(255, 255, 255, 0);
   }
 }
+
 
